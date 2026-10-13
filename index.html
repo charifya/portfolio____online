@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio professionnel de Charif Abdallah : développement web, réseaux et support informatique.">
+  <title>Charif Abdallah | Portfolio</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Icônes -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- CSS personnalisé -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#accueil">CHARIF<span>.</span></a>
+
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#apropos">À propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item ms-lg-3">
+          <button id="langue" class="btn btn-outline-info btn-sm">EN</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section id="accueil" class="hero section-padding">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <p class="text-info fw-semibold" data-fr="Bienvenue sur mon portfolio" data-en="Welcome to my portfolio">
+            Bienvenue sur mon portfolio
+          </p>
+          <h1 data-fr="Bonjour, je suis Charif Abdallah."
+              data-en="Hello, I'm Charif Abdallah.">
+            Bonjour, je suis Charif Abdallah.
+          </h1>
+          <h2 data-fr="Développement web, réseaux et support informatique"
+              data-en="Web Development, Networking and IT Support">
+            Développement web, réseaux et support informatique
+          </h2>
+          <p class="lead mt-4"
+             data-fr="Passionné par les technologies, je développe des solutions numériques et contribue au bon fonctionnement des systèmes informatiques."
+             data-en="Passionate about technology, I build digital solutions and help keep IT systems running smoothly.">
+            Passionné par les technologies, je développe des solutions numériques et contribue au bon fonctionnement des systèmes informatiques.
+          </p>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="#projets" class="btn btn-info btn-lg"
+               data-fr="Voir mes projets" data-en="View my projects">Voir mes projets</a>
+            <a href="assets/cv.pdf" class="btn btn-outline-light btn-lg"
+               target="_blank" rel="noopener"
+               data-fr="Mon CV PDF" data-en="My resume">Mon CV PDF</a>
+          </div>
+          <div class="social-links mt-4">
+            <a href="https://github.com/" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-5 text-center">
+          <div class="profile-frame">
+            <img src="assets/profile.png" alt="Portrait professionnel de Charif Abdallah"
+                 class="profile-image"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="profile-placeholder" style="display:none">
+              <i class="bi bi-person-fill"></i>
+            </div>
+          </div>
+          <p class="text-secondary mt-3">Comores · Informatique & technologies</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="apropos" class="section-padding">
+    <div class="container">
+      <h2 class="section-title" data-fr="À propos de moi" data-en="About me">À propos de moi</h2>
+      <p class="section-description"
+         data-fr="Mon parcours, mes expériences et mon ambition dans le domaine informatique."
+         data-en="My background, experience and ambitions in information technology.">
+        Mon parcours, mes expériences et mon ambition dans le domaine informatique.
+      </p>
+      <div class="content-card">
+        <p data-fr="Je m'intéresse au développement d'applications web, à l'administration des réseaux et au support informatique. J'aime résoudre les problèmes techniques et concevoir des outils qui répondent à des besoins concrets."
+           data-en="I am interested in web application development, network administration and IT support. I enjoy solving technical problems and building tools that meet real needs.">
+          Je m'intéresse au développement d'applications web, à l'administration des réseaux et au support informatique. J'aime résoudre les problèmes techniques et concevoir des outils qui répondent à des besoins concrets.
+        </p>
+        <p data-fr="Mon objectif est de continuer à développer mes compétences et de participer à des projets technologiques utiles."
+           data-en="My goal is to keep developing my skills and contribute to useful technology projects.">
+          Mon objectif est de continuer à développer mes compétences et de participer à des projets technologiques utiles.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="competences" class="section-padding section-alt">
+    <div class="container">
+      <h2 class="section-title" data-fr="Mes compétences" data-en="My skills">Mes compétences</h2>
+      <div class="row g-4 mt-3">
+        <div class="col-md-6 col-lg-3">
+          <div class="content-card skill-card">
+            <i class="bi bi-code-slash"></i>
+            <h3>Web</h3>
+            <p>HTML, CSS, JavaScript, Bootstrap, PHP</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="content-card skill-card">
+            <i class="bi bi-database"></i>
+            <h3>Bases de données</h3>
+            <p>MySQL, SQL, phpMyAdmin</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="content-card skill-card">
+            <i class="bi bi-router"></i>
+            <h3>Réseaux</h3>
+            <p>TCP/IP, Cisco Packet Tracer, configuration réseau</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="content-card skill-card">
+            <i class="bi bi-pc-display"></i>
+            <h3>Support IT</h3>
+            <p>Windows, maintenance, logiciels et imprimantes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projets" class="section-padding">
+    <div class="container">
+      <h2 class="section-title" data-fr="Mes projets" data-en="My projects">Mes projets</h2>
+      <div class="row g-4 mt-3">
+        <div class="col-md-6">
+          <article class="content-card project-card">
+            <i class="bi bi-tools project-icon"></i>
+            <h3>Gestion de maintenance informatique</h3>
+            <p>Application web de gestion des équipements, pannes, interventions et techniciens.</p>
+            <p class="project-tech">PHP · MySQL · Bootstrap · JavaScript</p>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article class="content-card project-card">
+            <i class="bi bi-box-seam project-icon"></i>
+            <h3>Gestion de stock</h3>
+            <p>Application de suivi des produits, des entrées, des sorties et des stocks.</p>
+            <p class="project-tech">PHP · MySQL · Bootstrap</p>
+          </article>
+        </div>
+      </div>
+      <p class="text-secondary mt-3">Ajoute ici les liens vers les dépôts GitHub de tes projets réels.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section-padding section-alt">
+    <div class="container">
+      <h2 class="section-title" data-fr="Contactez-moi" data-en="Contact me">Contactez-moi</h2>
+      <p class="section-description">Un projet ou une opportunité professionnelle ? Échangeons.</p>
+      <div class="content-card contact-card">
+        <p><i class="bi bi-envelope me-2"></i>
+          <a href="mailto:tonemail@example.com">tonemail@example.com</a>
+        </p>
+        <p><i class="bi bi-github me-2"></i>
+          <a href="https://github.com/" target="_blank" rel="noopener">Mon GitHub</a>
+        </p>
+        <p><i class="bi bi-linkedin me-2"></i>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">Mon LinkedIn</a>
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="py-4 text-center">
+  <div class="container">
+    <p class="mb-1">© <span id="annee"></span> Charif Abdallah</p>
+    <small>Conçu avec HTML, CSS, JavaScript et Bootstrap 5.</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
